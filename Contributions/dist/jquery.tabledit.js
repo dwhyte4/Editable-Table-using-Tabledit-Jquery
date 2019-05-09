@@ -72,7 +72,7 @@ if (typeof jQuery === 'undefined') {
                   },
                   confirm: {
                       class: 'btn btn-xs btn-danger',
-                      html: 'Confirmar'
+                      html: 'Confirm'
                   }
               },
               onDraw: function() { return; },

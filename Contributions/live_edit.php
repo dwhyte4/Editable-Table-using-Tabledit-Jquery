@@ -29,7 +29,7 @@ if($input["action"] === 'edit')
 
 if($input["action"] === 'delete')
 {
-	$query = "DELETE FROM contribution WHERE id = ".$input["id"];
+	$query = "DELETE FROM contribution WHERE user_id = ".$input["user_id"];
 	mysqli_query($conn, $query);
 } 
 
